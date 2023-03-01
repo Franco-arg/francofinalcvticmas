@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+font-family: 'Press Start 2P', cursive;          h1
+font-family: 'Chakra Petch', sans-serif;         h2
+font-family: 'Special Elite', cursive;           
+font-family: 'Staatliches', cursive;             lista
+*/
+
+#index {
+    background-color: lightgray;
+}
+
+body {
+
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    color: black;
+    
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    position: relative;
+}
+
+
+/* Intente vincular los botones a css con dos clases distintas pero no pude */
+#aindex, #aedu, #bindex, #bhabi, #cindex, #cexp, #dindex, #dcontact {
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 4px 2px;
+    margin-bottom: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+}
+
+
+section {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    padding-top: 125px;
+}
+
+
+
+.container {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: 'Chakra Petch', sans-serif;
+    display: block;
+    padding: 15px;
+    
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid;
+}
+
+
+
+
+ul {
+    list-style: none;
+    
+}
+
+
+
+#ulhabi {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+
+}
+
+.foto-perfil {
+margin-bottom: 50px;
+}
+
+h2 {
+
+    font-family: 'Staatliches', cursive;
+    font-size: 27px;
+    text-align: justify;
+    padding: 0 0 40px 0;
+}
+
+h3 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#contacto {
+    margin-top: 50px;
+}
+
+
+
+
+hr {
+    margin: 50px 0 50px 0;
+    border: 0;
+    border-top: 1px solid;
+    color: black;
+}
+
+
+
+
+
+
